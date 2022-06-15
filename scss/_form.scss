@@ -1,0 +1,98 @@
+form {
+    display: flex;
+    align-items: center;
+  position: relative;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    gap: 30px;
+  
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+div label {
+    border: 1px solid #000000;
+    font-size: 15px;
+    padding: 5px;
+    border-bottom:none;
+    width: 20%;
+}
+form .iconn-1{
+    position: relative;
+}
+form .fa-envelope {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 100;
+top: 30px;
+left: 10px;
+  padding: 5px;
+    color: rgba(0, 0, 0, 0.664);
+    
+}
+form .iconn-2{
+    position: relative;
+}
+form .fa-eye {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 100;
+top: 35px;
+right: 10px;
+  padding: 5px;
+    color: rgba(0, 0, 0, 0.664);
+    
+}
+
+form .fa-unlock-keyhole {
+    position: absolute;
+font-size: 25px;
+top: 33px;
+left: 10px;
+  padding: 5px;
+    color:gray;
+}
+input {
+    width: 500px;
+    height: 40px;
+}
+form button{
+    width: 510px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color:#000000;
+    border: none;
+}
+form button:hover {
+ box-shadow: inset 0px  0px 0px 20px gray;
+}
+form a{
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    color: #7d64eb;
+font-weight: 900;
+    font-size: 20px;
+}
+form a:hover {
+    text-decoration: underline;
+
+}
+ form h3{
+    width: 100%;
+text-align: left;
+font-size: 40px;}
+hr {
+    margin-top: 50px;
+}
+form input:hover {    padding:5px ;
+    border: 2px solid black;
+}
+form  .input-2{   
+     padding:5px ;
+    outline: 1px dotted red;
+}

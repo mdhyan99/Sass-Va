@@ -1,0 +1,23 @@
+{
+  "name": "sass-variablen-und-funktionen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass -w scss/style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/22-D03-1/sass-variablen-und-funktionen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/22-D03-1/sass-variablen-und-funktionen/issues"
+  },
+  "homepage": "https://github.com/22-D03-1/sass-variablen-und-funktionen#readme",
+  "dependencies": {
+    "sass": "^1.52.3"
+  }
+}
