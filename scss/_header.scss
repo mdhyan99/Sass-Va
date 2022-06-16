@@ -1,28 +1,26 @@
 header {
-    display: flex;
-    align-items: center;
-   border: 1px solid gray;
-  height: 10vh;
-  font-weight: 300;
-   position: relative;
-}
-header .icon {
-    display: flex;
-    justify-content: space-between;
-    align-items:center ;
     width: 100%;
-    padding: 0px 20px;
-}
-header .icon a {
-    text-decoration: none;
-}
- header  i{
-    border: none;
-  font-weight: 300;
-    font-size: 40px;
-    cursor: pointer;
-
-    padding: 25px;
+    display: flex;
     border: 1px solid gray;
-    height: 100%;
-}
+    position: relative;
+    top: 0;
+  }
+  .lo-re{
+      padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .lo-re a{
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    width: 35px;
+    border-right: 1px solid gray;
+  }

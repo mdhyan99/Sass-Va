@@ -1,13 +1,12 @@
 form {
     display: flex;
     align-items: center;
-  position: relative;
+    position: relative;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     width: 500px;
     gap: 30px;
-  
 }
 form div{
     display: flex;
@@ -27,11 +26,10 @@ form .fa-envelope {
     position: absolute;
     font-size: 30px;
     font-weight: 100;
-top: 30px;
-left: 10px;
-  padding: 5px;
+    top: 30px;
+    left: 10px;
+    padding: 5px;
     color: rgba(0, 0, 0, 0.664);
-    
 }
 form .iconn-2{
     position: relative;
@@ -40,19 +38,17 @@ form .fa-eye {
     position: absolute;
     font-size: 20px;
     font-weight: 100;
-top: 35px;
-right: 10px;
-  padding: 5px;
+    top: 35px;
+    right: 10px;
+    padding: 5px;
     color: rgba(0, 0, 0, 0.664);
-    
 }
-
 form .fa-unlock-keyhole {
     position: absolute;
-font-size: 25px;
-top: 33px;
-left: 10px;
-  padding: 5px;
+    font-size: 25px;
+    top: 29px;
+    left: 10px;
+    padding: 5px;
     color:gray;
 }
 input {
@@ -60,7 +56,7 @@ input {
     height: 40px;
 }
 form button{
-    width: 510px;
+    width: 500px;
     height: 40px;
     font-size: 20px;
     color: white;
@@ -68,24 +64,21 @@ form button{
     border: none;
 }
 form button:hover {
- box-shadow: inset 0px  0px 0px 20px gray;
+background-color: #66676e;
 }
 form a{
     text-decoration: none;
     width: 100%;
     text-align: left;
     color: #7d64eb;
-font-weight: 900;
-    font-size: 20px;
 }
 form a:hover {
     text-decoration: underline;
-
 }
- form h3{
+ form h4{
     width: 100%;
-text-align: left;
-font-size: 40px;}
+    text-align: left;
+    font-size: 20px;}
 hr {
     margin-top: 50px;
 }
@@ -93,6 +86,6 @@ form input:hover {    padding:5px ;
     border: 2px solid black;
 }
 form  .input-2{   
-     padding:5px ;
+    padding:5px ;
     outline: 1px dotted red;
 }
